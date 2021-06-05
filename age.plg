@@ -56,8 +56,10 @@ if [ ! -f /boot/config/age.key ]; then
   echo "---------ATTENTION - ATTENTION - ATTENTION - ATTENTION - ATTENTION----------"
 else
   echo
-  echo "---Not creating new 'age.key', found existing 'age.key' in '/boot/config'---"
+  echo "----------------Found existing 'age.key' in '/boot/config'!-----------------"
 fi
+echo
+
 </INLINE>
 </FILE>
 
