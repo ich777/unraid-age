@@ -7,6 +7,7 @@
   <!ENTITY pluginURL "&gitURL;/aget.plg">
   <!ENTITY md5       "0544e1c547d56b000f45adfd33b3eace">
   <!ENTITY plugin    "/boot/config/plugins/age">
+  <!ENTITY emhttp    "/usr/local/emhttp/plugins/&name;">
 ]>
 
 <PLUGIN  name="&name;" author="&author;" version="&version;" pluginURL="&pluginURL;" min="6.9.2" support="https://forums.unraid.net/topic/92865-support-ich777-nvidiadvbzfsiscsimft-kernel-helperbuilder-docker/" icon="lock">
