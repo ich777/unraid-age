@@ -41,13 +41,13 @@ Is a simple, modern and secure file encryption tool, format, and Go library. It 
 <FILE Run="/bin/bash">
 <INLINE>
 
-if [ ! -f /boot/config/age.key ]; then
+if [ ! -f /boot/config/key.age ]; then
   echo
-  echo "---Creating 'age.key'---"
-  age-key -o /boot/config/age.key
+  echo "---Creating 'key.age'---"
+  age-key -o /boot/config/key.age
   echo
   echo "----------------------------------------------------------------------------"
-  echo "-----'age.key' successfully created in directory '/boot/config' please------"
+  echo "-----'key.age' successfully created in directory '/boot/config' please------"
   echo "--------------make sure to also save this key somewhere save!---------------"
   echo "----------------------------------------------------------------------------"
   echo
@@ -56,7 +56,7 @@ if [ ! -f /boot/config/age.key ]; then
   echo "---------ATTENTION - ATTENTION - ATTENTION - ATTENTION - ATTENTION----------"
 else
   echo
-  echo "----------------Found existing 'age.key' in '/boot/config'!-----------------"
+  echo "----------------Found existing 'key.age' in '/boot/config'!-----------------"
 fi
 echo
 
@@ -77,7 +77,7 @@ echo "--------------------age uninstalled!----------------------"
 echo "----------------------------------------------------------"
 echo
 echo "------ATTENTION - ATTENTION - ATTENTION - ATTENTION-------"
-echo "---Please don't forget to save your 'age.key' file that---"
+echo "---Please don't forget to save your 'key.age' file that---"
 echo "---is located in your config directory on your USB Boot---"
 echo "------device if you have somewhere encrypted files!-------"
 echo "------ATTENTION - ATTENTION - ATTENTION - ATTENTION-------"
