@@ -2,7 +2,7 @@
 <!DOCTYPE PLUGIN [
   <!ENTITY name      "age">
   <!ENTITY author    "ich777">
-  <!ENTITY version   "2021.06.05">
+  <!ENTITY version   "2021.06.10">
   <!ENTITY gitURL    "https://raw.githubusercontent.com/&author;/unraid-age/master">
   <!ENTITY pluginURL "&gitURL;/age.plg">
   <!ENTITY md5       "0544e1c547d56b000f45adfd33b3eace">
@@ -13,6 +13,9 @@
 <PLUGIN  name="&name;" author="&author;" version="&version;" pluginURL="&pluginURL;" min="6.9.0" support="https://forums.unraid.net/topic/110023-plugin-age/" icon="lock">
 
 <CHANGES>
+
+###2021.06.10
+- Fixed age-keygen error
 
 ###2021.06.05
 - Initial release based on age v1.0.0-rc.2
