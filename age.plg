@@ -10,7 +10,7 @@
   <!ENTITY emhttp    "/usr/local/emhttp/plugins/&name;">
 ]>
 
-<PLUGIN  name="&name;" author="&author;" version="&version;" pluginURL="&pluginURL;" min="6.9.2" support="https://forums.unraid.net/topic/92865-support-ich777-nvidiadvbzfsiscsimft-kernel-helperbuilder-docker/" icon="lock">
+<PLUGIN  name="&name;" author="&author;" version="&version;" pluginURL="&pluginURL;" min="6.9.2" support="https://forums.unraid.net/topic/110023-plugin-age/" icon="lock">
 
 <CHANGES>
 
@@ -34,7 +34,8 @@ rm -f $(ls &plugin;/&name;*.txz 2>/dev/null|grep -v '&version;')
 <INLINE>
 **age**
 
-Is a simple, modern and secure file encryption tool, format. It features small explicit keys, no config options, and UNIX-style composability. You can get more details here: https://github.com/FiloSottile/age
+Is a simple, modern and secure file encryption tool. It features small explicit keys, no config options, and UNIX-style composability. You can get more details here: https://github.com/FiloSottile/age  
+For examples how to use age please visit the support thread.
 </INLINE>
 </FILE>
 
