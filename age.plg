@@ -45,7 +45,7 @@ For examples how to use age please visit the support thread.
 if [ ! -f /boot/config/key.age ]; then
   echo
   echo "---Creating 'key.age'---"
-  age-key -o /boot/config/key.age > /dev/null 2>&1
+  age-key -o /boot/config/key.age &gt; /dev/null 2&gt;&amp;1
   echo
   echo "----------------------------------------------------------------------------"
   echo "-----'key.age' successfully created in directory '/boot/config' please------"
