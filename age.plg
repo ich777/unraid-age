@@ -44,7 +44,7 @@ Is a simple, modern and secure file encryption tool, format. It features small e
 if [ ! -f /boot/config/key.age ]; then
   echo
   echo "---Creating 'key.age'---"
-  age-key -o /boot/config/key.age
+  age-key -o /boot/config/key.age > /dev/null 2>&1
   echo
   echo "----------------------------------------------------------------------------"
   echo "-----'key.age' successfully created in directory '/boot/config' please------"
