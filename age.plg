@@ -34,7 +34,7 @@ rm -f $(ls &plugin;/&name;*.txz 2>/dev/null|grep -v '&version;')
 <INLINE>
 **age**
 
-Is a simple, modern and secure file encryption tool, format, and Go library. It features small explicit keys, no config options, and UNIX-style composability. You can get more details here: https://github.com/FiloSottile/age
+Is a simple, modern and secure file encryption tool, format. It features small explicit keys, no config options, and UNIX-style composability. You can get more details here: https://github.com/FiloSottile/age
 </INLINE>
 </FILE>
 
