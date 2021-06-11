@@ -74,6 +74,7 @@ echo "------------------------------"
 echo "-------Uninstalling age-------"
 echo "------------------------------"
 # Remove plugin related files
+removepkg &name;-&version;.tgz
 rm -rf &plugin;
 echo
 echo "----------------------------------------------------------"
