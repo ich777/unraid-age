@@ -2,10 +2,10 @@
 <!DOCTYPE PLUGIN [
   <!ENTITY name      "age">
   <!ENTITY author    "ich777">
-  <!ENTITY version   "2024.06.16">
+  <!ENTITY version   "2024.12.19">
   <!ENTITY gitURL    "https://raw.githubusercontent.com/&author;/unraid-age/master">
   <!ENTITY pluginURL "&gitURL;/age.plg">
-  <!ENTITY md5       "085b840224fc5506991a79e469467e46">
+  <!ENTITY md5       "b92c92bf1c055dd9c8767e323b9e4a7a">
   <!ENTITY plugin    "/boot/config/plugins/age">
   <!ENTITY emhttp    "/usr/local/emhttp/plugins/&name;">
 ]>
@@ -13,6 +13,9 @@
 <PLUGIN  name="&name;" author="&author;" version="&version;" pluginURL="&pluginURL;" min="6.9.0" support="https://forums.unraid.net/topic/110023-plugin-age/" icon="lock">
 
 <CHANGES>
+
+###2024.12.19
+- Bumped version to age v1.2.1
 
 ###2024.06.16
 - Bumped version to age v1.2.0
